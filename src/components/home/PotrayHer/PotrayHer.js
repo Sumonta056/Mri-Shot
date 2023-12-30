@@ -6,15 +6,15 @@ import {
   saleImgThree,
 } from "../../../assets/images/index";
 import Image from "../../designLayouts/Image";
-import Heading from "../Products/Heading";
+import Heading from "../ImageCard/Heading";
 
-const Sale = () => {
+const PotrayHer = () => {
   return (
     <div className="h-3/4">
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <Heading heading="🌱 A Walk of Adventure" />
       </div>
-      <div className="py-3 flex flex-col md:flex-row items-center justify-between gap-4 lg:gap-10">
+      <div className="py-6 flex flex-col md:flex-row items-center justify-between gap-4 lg:gap-10">
         <div className="w-2/3 md:w-2/3 lg:w-1/2 h-full">
           <Link to="/shop">
             <Image className="h-full w-full object-cover" imgSrc={saleImgOne} />
@@ -38,4 +38,4 @@ const Sale = () => {
   );
 };
 
-export default Sale;
+export default PotrayHer;

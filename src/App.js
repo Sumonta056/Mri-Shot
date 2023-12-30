@@ -58,7 +58,7 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      <HeaderBottom />
+      {/* <HeaderBottom /> */}
       <ScrollRestoration />
       <Outlet />
       <Footer />

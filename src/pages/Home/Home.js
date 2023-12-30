@@ -4,9 +4,9 @@ import BannerBottom from "../../components/Banner/BannerBottom";
 import Achivement from "../Achievement/Achievement1";
 import Achivement2 from "../Achievement/Achievement2";
 import Achivement3 from "../Achievement/Achievement3";
-import BestSellers from "../../components/home/BestSellers/BestSellers";
-import NewArrivals from "../../components/home/NewArrivals/NewArrivals";
-import Sale from "../../components/home/Sale/Sale";
+import BestSellers from "../../components/home/AbstractZone/AbstractZone";
+import NewArrivals from "../../components/home/FlowerZone/FlowerZone";
+import Sale from "../../components/home/PotrayHer/PotrayHer";
 
 const Home = () => {
   return (

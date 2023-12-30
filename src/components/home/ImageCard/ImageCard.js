@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../../designLayouts/Image";
 // import Badge from "./Badge";
 
-const Product = (props) => {
+const ImageCard = (props) => {
   return (
     <div className="w-full relative group">
       <div className="max-w-80 h-120 relative overflow-y-hidden ">
@@ -17,4 +17,4 @@ const Product = (props) => {
   );
 };
 
-export default Product;
+export default ImageCard;

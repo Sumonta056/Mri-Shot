@@ -9,7 +9,7 @@ const Analytics = () => {
     <div className="w-full mx-auto bg-white py-4 px-4">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-1 lg:grid-cols-2 md:gap-20 sm:gap-2">
         <img
-          className="md:w-[600px] sm:w-[300px] mx-auto my-4"
+          className="md:w-[600px] sm:w-[300px] mx-auto my-4 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]"
           src={Laptop}
           alt="/"
         />
