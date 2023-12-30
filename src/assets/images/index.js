@@ -1,4 +1,4 @@
-import logo from "./orebiLogo.png";
+import logo from "./logoLight.png";
 import logoLight from "./logoLight.png";
 import bannerImgOne from "./banner/1.jpg";
 import bannerImgTwo from "./banner/bannerImgTwo.jpg";

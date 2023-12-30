@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import {
   bannerImgOne,
@@ -13,9 +12,10 @@ const Banner = () => {
   const settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    speed: 100,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
     arrows: false,
     beforeChange: (prev, next) => {
       setDocActive(next);
@@ -100,23 +100,41 @@ const Banner = () => {
     ],
   };
   return (
-    <div className="w-1/3 mx-auto bg-white">
+    <div className="w-full mx-auto px-20 py-4 bg-white">
       <Slider {...settings}>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgOne} />
-          </div>
-        </Link>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgTwo} />
-          </div>
-        </Link>
-        <Link to="/offer">
-          <div>
-            <Image imgSrc={bannerImgThree} />
-          </div>
-        </Link>
+        <div>
+          <Image imgSrc={bannerImgOne} />
+        </div>
+
+        <div>
+          <Image imgSrc={bannerImgTwo} />
+        </div>
+
+        <div>
+          <Image imgSrc={bannerImgThree} />
+        </div>
+        <div>
+          <Image imgSrc={bannerImgOne} />
+        </div>
+
+        <div>
+          <Image imgSrc={bannerImgTwo} />
+        </div>
+
+        <div>
+          <Image imgSrc={bannerImgThree} />
+        </div>
+        <div>
+          <Image imgSrc={bannerImgOne} />
+        </div>
+
+        <div>
+          <Image imgSrc={bannerImgTwo} />
+        </div>
+
+        <div>
+          <Image imgSrc={bannerImgThree} />
+        </div>
       </Slider>
     </div>
   );
