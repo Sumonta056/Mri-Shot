@@ -2,7 +2,7 @@ import Laptop from "./2.jpg";
 
 const Analytics = () => {
   function handleButton1() {
-    window.location.href = "https://sumonta056.github.io/";
+    window.location.href = "https://www.linkedin.com/posts/sumonta-saha-mridul-b35bb61a0_photography-photoexhibition-exceedabr2023-activity-7037990921178681344-4HeF?utm_source=share&utm_medium=member_desktop";
   }
 
   return (

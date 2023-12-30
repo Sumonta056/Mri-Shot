@@ -9,7 +9,6 @@ import {
 import Footer from "./components/home/Footer/Footer";
 import FooterBottom from "./components/home/Footer/FooterBottom";
 import Header from "./components/home/Header/Header";
-import HeaderBottom from "./components/home/Header/HeaderBottom";
 import Home from "./pages/Home/Home";
 import { useEffect } from "react";
 
@@ -58,7 +57,6 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      {/* <HeaderBottom /> */}
       <ScrollRestoration />
       <Outlet />
       <Footer />
