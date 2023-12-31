@@ -3,17 +3,17 @@ import Slider from "react-slick";
 import Heading from "../ImageCard/Heading";
 import ImageCard from "../ImageCard/ImageCard";
 import {
-  bestSellerOne,
-  bestSellerTwo,
-  bestSellerThree,
-  bestSellerFour,
-  bestSellerFive,
-  bestSellerSix,
-  bestSellerSeven,
-  bestSellerEight,
-  bestSellerNine,
-  bestSellerTen,
-  bestSellerEleven,
+  AbstractOne,
+  AbstractTwo,
+  AbstractThree,
+  AbstractFour,
+  AbstractFive,
+  AbstractSix,
+  AbstractSeven,
+  AbstractEight,
+  AbstractNine,
+  AbstractTen,
+  AbstractEleven,
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -63,37 +63,37 @@ const AbstractZone = () => {
       <div className="py-6">
         <Slider {...settings}>
           <div className="px-2">
-            <ImageCard _id="100001" img={bestSellerOne} />
+            <ImageCard _id="100001" img={AbstractOne} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100002" img={bestSellerTwo} />
+            <ImageCard _id="100002" img={AbstractTwo} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100003" img={bestSellerThree} />
+            <ImageCard _id="100003" img={AbstractThree} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100004" img={bestSellerFour} />
+            <ImageCard _id="100004" img={AbstractFour} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={bestSellerFive} />
+            <ImageCard _id="100005" img={AbstractFive} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={bestSellerSix} />
+            <ImageCard _id="100005" img={AbstractSix} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={bestSellerSeven} />
+            <ImageCard _id="100005" img={AbstractSeven} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100004" img={bestSellerEight} />
+            <ImageCard _id="100004" img={AbstractEight} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={bestSellerNine} />
+            <ImageCard _id="100005" img={AbstractNine} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={bestSellerTen} />
+            <ImageCard _id="100005" img={AbstractTen} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={bestSellerEleven} />
+            <ImageCard _id="100005" img={AbstractEleven} />
           </div>
         </Slider>
       </div>

@@ -1,11 +1,21 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import {
-  bannerImgOne,
-  bannerImgTwo,
-  bannerImgThree,
+  banner1,
+  banner2,
+  banner3,
+  banner4,
+  banner5,
+  banner6,
+  banner7,
+  banner8,
+  banner9,
+  banner10,
+  banner11,
+  banner12,
+  banner13,
 } from "../../assets/images";
-import Image from "../designLayouts/Image";
+import Image from "../Layouts/Image";
 
 const Banner = () => {
   const [dotActive, setDocActive] = useState(0);
@@ -103,37 +113,43 @@ const Banner = () => {
     <div className="w-full mx-auto px-20 py-4 bg-white">
       <Slider {...settings}>
         <div>
-          <Image imgSrc={bannerImgOne} />
-        </div>
-
-        <div>
-          <Image imgSrc={bannerImgTwo} />
-        </div>
-
-        <div>
-          <Image imgSrc={bannerImgThree} />
+          <Image imgSrc={banner1} />
         </div>
         <div>
-          <Image imgSrc={bannerImgOne} />
-        </div>
-
-        <div>
-          <Image imgSrc={bannerImgTwo} />
-        </div>
-
-        <div>
-          <Image imgSrc={bannerImgThree} />
+          <Image imgSrc={banner2} />
         </div>
         <div>
-          <Image imgSrc={bannerImgOne} />
+          <Image imgSrc={banner3} />
         </div>
-
         <div>
-          <Image imgSrc={bannerImgTwo} />
+          <Image imgSrc={banner4} />
         </div>
-
         <div>
-          <Image imgSrc={bannerImgThree} />
+          <Image imgSrc={banner5} />
+        </div>
+        <div>
+          <Image imgSrc={banner6} />
+        </div>
+        <div>
+          <Image imgSrc={banner7} />
+        </div>
+        <div>
+          <Image imgSrc={banner8} />
+        </div>
+        <div>
+          <Image imgSrc={banner9} />
+        </div>
+        <div>
+          <Image imgSrc={banner10} />
+        </div>
+        <div>
+          <Image imgSrc={banner11} />
+        </div>
+        <div>
+          <Image imgSrc={banner12} />
+        </div>
+        <div>
+          <Image imgSrc={banner13} />
         </div>
       </Slider>
     </div>

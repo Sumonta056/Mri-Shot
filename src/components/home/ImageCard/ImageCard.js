@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../designLayouts/Image";
+import Image from "../../Layouts/Image";
 // import Badge from "./Badge";
 
 const ImageCard = (props) => {

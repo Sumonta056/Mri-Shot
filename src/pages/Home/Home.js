@@ -4,9 +4,10 @@ import BannerBottom from "../../components/Banner/BannerBottom";
 import Achivement from "../Achievement/Achievement1";
 import Achivement2 from "../Achievement/Achievement2";
 import Achivement3 from "../Achievement/Achievement3";
-import BestSellers from "../../components/home/AbstractZone/AbstractZone";
-import NewArrivals from "../../components/home/FlowerZone/FlowerZone";
-import Sale from "../../components/home/PotrayHer/PotrayHer";
+import AbstractZone from "../../components/home/AbstractZone/AbstractZone";
+import FlowerZone from "../../components/home/FlowerZone/FlowerZone";
+import PotrayHer from "../../components/home/PotrayHer/PotrayHer";
+import GodZone from "../../components/home/GodZone/GodZone";
 
 const Home = () => {
   return (
@@ -17,9 +18,10 @@ const Home = () => {
         <Achivement />
         <Achivement2 />
         <Achivement3 />
-        <NewArrivals />
-        <Sale />
-        <BestSellers />
+        <FlowerZone />
+        <PotrayHer />
+        <AbstractZone />
+        <GodZone />
       </div>
     </div>
   );

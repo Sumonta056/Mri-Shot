@@ -4,9 +4,9 @@ import { MdClose } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { logo, logoLight } from "../../../assets/images";
-import Image from "../../designLayouts/Image";
+import Image from "../../Layouts/Image";
 import { navBarList } from "../../../constants";
-import Flex from "../../designLayouts/Flex";
+import Flex from "../../Layouts/Flex";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);

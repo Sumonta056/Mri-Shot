@@ -3,13 +3,24 @@ import Slider from "react-slick";
 import Heading from "../ImageCard/Heading";
 import ImageCard from "../ImageCard/ImageCard";
 import {
-  newArrOne,
-  newArrTwo,
-  newArrThree,
-  newArrFour,
-  newArrFive,
-  newArrSix,
-  newArrSeven,
+  FlowerZoneOne,
+  FlowerZoneTwo,
+  FlowerZoneThree,
+  FlowerZoneFour,
+  FlowerZoneFive,
+  FlowerZoneSix,
+  FlowerZoneSeven,
+  FlowerZoneOne1,
+  FlowerZoneTwo1,
+  FlowerZoneThree1,
+  FlowerZoneFour1,
+  FlowerZoneFive1,
+  FlowerZoneSix1,
+  FlowerZoneSeven1,
+  FlowerZoneOne2,
+  FlowerZoneTwo2,
+  FlowerZoneThree2,
+  FlowerZoneFour2,
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -59,25 +70,64 @@ const FlowerZone = () => {
       <div className="py-6">
         <Slider {...settings}>
           <div className="px-2">
-            <ImageCard _id="100001" img={newArrOne} />
+            <ImageCard _id="100001" img={FlowerZoneOne} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100002" img={newArrTwo} />
+            <ImageCard _id="100002" img={FlowerZoneTwo} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100003" img={newArrThree} />
+            <ImageCard _id="100003" img={FlowerZoneThree} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100004" img={newArrFour} />
+            <ImageCard _id="100005" img={FlowerZoneSix} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={newArrFive} />
+            <ImageCard _id="100004" img={FlowerZoneFour} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={newArrSix} />
+            <ImageCard _id="100005" img={FlowerZoneFive} />
+          </div>
+
+          <div className="px-2">
+            <ImageCard _id="100005" img={FlowerZoneSeven} />
           </div>
           <div className="px-2">
-            <ImageCard _id="100005" img={newArrSeven} />
+            <ImageCard _id="100004" img={FlowerZoneFour1} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100004" img={FlowerZoneOne2} />
+          </div>
+        </Slider>
+      </div>
+      <div className="py-2">
+        <Slider {...settings}>
+          <div className="px-2">
+            <ImageCard _id="100001" img={FlowerZoneOne1} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100002" img={FlowerZoneTwo1} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100003" img={FlowerZoneThree1} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100004" img={FlowerZoneFour2} />
+          </div>
+
+          <div className="px-2">
+            <ImageCard _id="100005" img={FlowerZoneSix1} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100005" img={FlowerZoneSeven1} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100005" img={FlowerZoneTwo2} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100005" img={FlowerZoneFive1} />
+          </div>
+          <div className="px-2">
+            <ImageCard _id="100005" img={FlowerZoneThree2} />
           </div>
         </Slider>
       </div>
