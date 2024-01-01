@@ -26,7 +26,7 @@ const LinkRedirect = () => {
   useEffect(() => {
     // Redirect to the external website when the component mounts
     window.location.href =
-      "https://www.linkedin.com/in/sumonta-saha-mridul-b35bb61a0/";
+      "https://unsplash.com/@sumonta056";
   }, []);
 
   // Return null or any content you want to render, or you can remove this function entirely

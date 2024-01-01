@@ -12,8 +12,8 @@ export const navBarList = [
   },
   {
     _id: 1003,
-    title: "GitHub",
-    link: "/github",
+    title: "Unplash",
+    link: "/linkedin",
   },
   {
     _id: 1004,
@@ -22,8 +22,9 @@ export const navBarList = [
   },
   {
     _id: 1005,
-    title: "Contact",
-    link: "/linkedin",
+    title: "GitHub",
+    link: "/github",
+  
   },
 ];
 // =================== NavBarList End here ======================
