@@ -5,7 +5,6 @@ import {
   banner2,
   banner3,
   banner4,
-  banner5,
   banner6,
   banner7,
   banner8,
@@ -124,9 +123,9 @@ const Banner = () => {
         <div>
           <Image imgSrc={banner4} />
         </div>
-        <div>
+        {/* <div>
           <Image imgSrc={banner5} />
-        </div>
+        </div> */}
         <div>
           <Image imgSrc={banner6} />
         </div>
