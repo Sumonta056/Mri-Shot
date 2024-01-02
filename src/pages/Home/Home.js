@@ -8,11 +8,13 @@ import AbstractZone from "../../components/home/AbstractZone/AbstractZone";
 import FlowerZone from "../../components/home/FlowerZone/FlowerZone";
 import PotrayHer from "../../components/home/PotrayHer/PotrayHer";
 import GodZone from "../../components/home/GodZone/GodZone";
+import Safezone from "../../components/Swiper/App";
 
 const Home = () => {
   return (
     <div className="w-full mx-auto">
       <Banner />
+      <Safezone />
       <BannerBottom />
       <div className="max-w-container mx-auto px-4">
         <Achivement />
