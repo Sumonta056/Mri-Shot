@@ -9,8 +9,8 @@ import {
   AbstractFour,
   AbstractFive,
   AbstractSix,
-  AbstractSeven,
-  AbstractEight,
+  // AbstractSeven,
+  // AbstractEight,
   AbstractNine,
   AbstractTen,
   AbstractEleven,
@@ -80,12 +80,12 @@ const AbstractZone = () => {
           <div className="px-2">
             <ImageCard _id="100005" img={AbstractSix} />
           </div>
-          <div className="px-2">
+          {/* <div className="px-2">
             <ImageCard _id="100005" img={AbstractSeven} />
           </div>
           <div className="px-2">
             <ImageCard _id="100004" img={AbstractEight} />
-          </div>
+          </div> */}
           <div className="px-2">
             <ImageCard _id="100005" img={AbstractNine} />
           </div>
