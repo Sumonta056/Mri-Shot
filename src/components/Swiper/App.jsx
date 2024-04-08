@@ -11,7 +11,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import "./App.css"
 import slide_image_1 from './test (1).jpg';
 import slide_image_2 from './test (2).jpg';
-import slide_image_3 from './test.png';
+import slide_image_3 from './test.jpg';
 import slide_image_4 from './test (3).jpg';
 import slide_image_5 from './test (4).jpg';
 import slide_image_6 from './test (5).jpg';
